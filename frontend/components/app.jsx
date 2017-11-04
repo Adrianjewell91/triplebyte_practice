@@ -4,7 +4,7 @@ import BoardContainer from "./boards/board_container";
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <BoardContainer title="Urgent"/>
       <BoardContainer title="Today"/>
       <BoardContainer title="Tomorrow"/>
