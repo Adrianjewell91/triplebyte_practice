@@ -5,6 +5,7 @@ import Board from './board';
 
 const mapStateToProps = state => {
   return {
+    tasks: Object.values(state.entities.tasks)
   };
 }
 

@@ -10,6 +10,9 @@ class Board extends React.Component {
     return (
       <div className={`board ${this.props.priority}`}>
         <h1>{this.props.title}</h1>
+        {
+          this.props.tasks.map((task) => task.title)
+        }
       </div>
     )
   }
