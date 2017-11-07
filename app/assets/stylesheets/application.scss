@@ -14,15 +14,14 @@
  *= require_self
  */
 
-.app {
+.kanban {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
-.board {
-  width: 100%;
-  height: 100%;
+.kanban * {
+    width: 100%;
+    text-align: center;
 }
 
 .one {
@@ -37,4 +36,9 @@
 .three {
   background-color: beige;
 
+}
+
+
+.hidden {
+  display: none;
 }
